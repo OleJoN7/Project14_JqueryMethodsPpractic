@@ -1,0 +1,164 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 12px Tahoma, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+div, menu, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, legend, label, select, input, textarea, button {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+img, fieldset {
+  border: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: #bd4147;
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 15px 45px;
+  font-size: 1.2rem;
+  border: none;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 20px;
+  background: #ffff00;
+  color: #000;
+  display: inline-block;
+}
+
+.button-section {
+  background: rgba(0, 0, 0, 0.68);
+  height: 100vh;
+}
+
+.btn-list {
+  padding-top: 30px;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.btn-list li {
+  width: calc(100%/3);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.addRemoveClass {
+  background: #5cb3fd;
+}
+
+.toggleClass {
+  background: #c0c0c0;
+}
+
+.hidden {
+  display: none;
+  font-size: 1.2rem;
+  color: #f7f7f7;
+}
+
+.form-section {
+  background: #c0c0c0;
+  padding: 30px 0;
+}
+.form-section .main-form {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.form-section .main-form fieldset {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 0 10px;
+  width: 100%;
+}
+.form-section .main-form fieldset legend {
+  display: inline-block;
+}
+.form-section .main-form .field-list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.form-section .main-form .field-list li {
+  text-align: left;
+  padding: 0 10px 10px;
+  font-size: .8rem;
+  color: #1d1e1f;
+}
+.form-section .main-form .field-list .text-block {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.form-section .main-form .field-list .radio-block {
+  display: -webkit-flex;
+  display: flex;
+}
+.form-section .main-form .field-list .radio-block p {
+  padding-bottom: 15px;
+}
+.form-section .main-form .field-list .check-list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}

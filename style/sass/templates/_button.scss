@@ -1,0 +1,13 @@
+.btn {
+  padding: 15px 45px;
+  font-size:1.2rem;
+  border: none;
+  @include border-radius(30px);
+  margin:20px;
+  background: #ffff00;
+  color: $secondary-color;
+  display: inline-block;
+}
+
+
+

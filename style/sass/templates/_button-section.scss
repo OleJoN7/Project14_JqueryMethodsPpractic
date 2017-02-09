@@ -1,0 +1,27 @@
+.button-section {
+  background: rgba(0,0,0,.68);
+  height:100vh;
+}
+.btn-list {
+  padding-top:30px;
+  @include justify-content(space-between);
+  @include flex-wrap(wrap);
+  li {
+    width:calc(100%/3);
+    text-align: center;
+    padding-bottom:30px;
+  }
+}
+
+.addRemoveClass {
+  background:#5cb3fd;
+}
+.toggleClass {
+  background:#c0c0c0;
+}
+.hidden {
+  display:none;
+  font-size:1.2rem;
+  color:#f7f7f7;
+}
+

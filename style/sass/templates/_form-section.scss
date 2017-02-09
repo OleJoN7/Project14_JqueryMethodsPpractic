@@ -1,0 +1,40 @@
+.form-section {
+  background:#c0c0c0;
+  padding:30px 0;
+ .main-form {
+   @include justify-content(space-between);
+   fieldset {
+     border:1px solid #000;
+     padding:10px;
+     margin:0 10px;
+     width: 100%;
+     legend {
+     display:inline-block;
+     }
+   }
+ .field-list {
+   @include display-flex();
+   @include flex-direction(column);
+   li {
+     text-align: left;
+     padding:0 10px 10px;
+     font-size:.8rem;
+     color:#1d1e1f;
+   }
+   .text-block {
+     @include display-flex();
+     @include flex-direction(column);
+   }
+   .radio-block {
+     @include display-flex();
+     p {
+       padding-bottom:15px;
+     }
+   }
+   .check-list {
+     @include display-flex();
+     @include flex-direction(column);
+   }
+ }
+ }
+}
